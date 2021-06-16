@@ -1,0 +1,29 @@
+package operatorsAndExpressions;
+
+import java.util.Scanner;
+
+public class AreaTriangle2 {
+
+	public static void main(String[] args) {
+		int a,b,c;
+		Scanner user = new Scanner(System.in);
+		a =user.nextInt();
+		b = user.nextInt();
+		c = user.nextInt();
+		if((a+b)>c) {
+			System.out.println("correct input");
+		}
+		else { 
+			System.out.println("Invalid input: make surea+b>c");
+			
+			}
+		
+		float s =(float) (a+b+c)/2;
+		System.out.println(s);
+		float m=s*(s-a)*(s-b)*(s-c);
+		System.out.println(m);
+		
+
+	}
+
+}

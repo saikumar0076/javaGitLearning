@@ -1,0 +1,25 @@
+package javaProgrammingLearning;
+
+public class ObjClass {
+
+	public static void addition() {
+		int y=10; int z=20;
+		int m=z+y;
+		System.out.println(m);
+	}
+	
+	public static void sub() {
+		int p=25, q= 30;
+		int r=p+q;
+		System.out.println(r);
+		System.out.println("hello world");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ObjClass cls = new ObjClass();
+		cls.sub();
+		cls.addition();
+	}
+
+}

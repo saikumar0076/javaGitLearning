@@ -1,0 +1,14 @@
+package operatorsAndExpressions;
+
+public class Arithmetic2 {
+
+	public static void main(String[] args) {
+		float x = 14.3f,y=(float) 3.2;
+		float r = x%y;
+		float z = x*y;
+		System.out.println(r);
+		System.out.println(z);
+
+	}
+
+}

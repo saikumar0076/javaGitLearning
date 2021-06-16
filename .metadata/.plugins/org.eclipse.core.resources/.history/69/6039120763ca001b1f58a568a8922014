@@ -1,0 +1,11 @@
+package javaProgrammingLearning;
+
+public class ObjClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirstJava first = new FirstJava();
+		first.add();
+	}
+
+}
